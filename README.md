@@ -1,7 +1,5 @@
 # INFO 7374 Algorithmic Digital-Marketing Assignment 2 Team 7
 
-Claat doc link: https://docs.google.com/document/d/1OA6tF0K02O28d9GoZB0An2jVZyrtToUK8hSOmgfV_gI/edit#
-
 We were given datasets from Kaggle from an Indonesian E-Commerce Website called jd.id which sells Laptops online.
 
 ## Dataset Description
@@ -27,6 +25,19 @@ Promotion:
 
 * To join the datasets, Trifacta was used by performing the transformation called "Union Datasets". This allows us to add as many datasets as we want.
 
-* Filtering: Since the large dataset is divided into different columns, filtering a laptop on the basis of different parameters gets very simple and gives the customer a wide range of filtering options like on the basis of CPU brand, GPU brand, Display resolution, Screen Size, RAM, ROM and Operating System.
+* Filtering: Since the large dataset is divided into different columns, filtering a laptop on the basis of different parameters gets very simple and gives the customer a wide range of filtering options like on the basis of CPU brand, GPU brand, Display resolution, Screen Size, RAM and Operating System.
 
-* Missing Value Handling: The missing values on the given datasets have been handled by using
+* Missing Value Handling: The missing values on the given datasets have been handled by using trifacta by filling the numerical values by taking the mean of the rest of the values. We encountered one missing value on the column "Price_in_USD" and that was resolved by doing the "replace missing" transformation.
+
+* Deriving additional columns from existing datasets: In the initial dataset, we had column called "nama_produk" which had the detailed specification of the laptops. We turned that column into 7 different columns using Pandas, namely:
+
+
+1. Model_Name
+2. CPU
+3. Display_Size
+4. Operating_System
+5. RAM
+6. GPU
+7. Screen_Resolution
+
+* Cleaning: To remove special Characters like ' " ' and blank spaces, "Replace text or pattern" transformation on Trifacta has been employed.
