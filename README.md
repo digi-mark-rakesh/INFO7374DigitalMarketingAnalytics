@@ -27,4 +27,16 @@ Promotion:
 
 * Filtering: Since the large dataset is divided into different columns, filtering a laptop on the basis of different parameters gets very simple and gives the customer a wide range of filtering options like on the basis of CPU brand, GPU brand, Display resolution, Screen Size, RAM, ROM and Operating System.
 
-* Missing Value Handling: The missing values on the given datasets have been handled by using
+* Missing Value Handling: The missing values on the given datasets have been handled by using Trifacta using the transformation "Replace Missing", there in by entering custom value. We solved a problem of having to add a missing value in the column "Price_in_USD".
+
+* Deriving additional Columns from existing datasets: We used Pandas to split the column "Nama_Produk" of the initial dataset in the following 7 columns:
+
+1. Model_Name
+2. CPU
+3. Display_Size
+4. GPU
+5. Screen_Resolution
+6. Operating_System
+7. RAM
+
+* Cleaning Datasets: "Replace Text or Pattern" transformation using Trifacta was used to free the data from white spaces and special characters like ' " ', hence cleaning the dataset. Also all the string were converted to Uppercase again using trifacta.
