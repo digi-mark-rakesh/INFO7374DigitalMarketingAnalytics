@@ -1,5 +1,7 @@
 # INFO 7374 Algorithmic Digital-Marketing Assignment 2 Team 7
 
+Claat doc link: https://docs.google.com/document/d/1OA6tF0K02O28d9GoZB0An2jVZyrtToUK8hSOmgfV_gI/edit#
+
 We were given datasets from Kaggle from an Indonesian E-Commerce Website called jd.id which sells Laptops online.
 
 ## Dataset Description
