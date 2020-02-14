@@ -21,7 +21,7 @@ The initial Dataset had the following columns:
 
 Pricing: jd.id has laptops that are being sold at prices as low as $270 all the way up to $3000, thus indicating that have entry level and budget laptops as well as high-end gaming laptops.
 
-Promotion:
+Promotion: The website has brands with as many as 600 different laptops being sold whereas some brands have hardly 3 models available. Because of this, a customer will automatically be driven towards the more popular brand.
 
 2. We have used tools such as Pandas, XSV and Trifacta for cleaning as well as transformation of the dataset. Below is a brief description of the tools and how have they been used.
 
@@ -46,3 +46,24 @@ Promotion:
 7. RAM
 
 * Cleaning Datasets: "Replace Text or Pattern" transformation using Trifacta was used to free the data from white spaces and special characters like ' " ', hence cleaning the dataset. Also all the string were converted to Uppercase again using trifacta.
+
+## Dashboads
+
+Once the Data is clean with all the Exploratory Data Analysis done using Pandas, XSV and Trifacta, following steps are performed on Salesforce Einstein Analytics:
+
+1. Create a new app
+
+2. Create a new dataset inside the app and upload the .csv file after changing the column "Price_in_USD" to Measure
+
+3. Create a dashboards inside the same app
+
+
+* For our dataset, all the columns except "Price_in_USD" are dimensions.
+
+* The dashboard will most likely be used by the E-Commerce website to look at the various ranges of products being sold by them to create new business strategies. Also the manufacturers of the laptops can also look into this to get an estimate of where they stand in the competition.
+
+* There are various values that are being generated, such as:
+
+1. The visualisation shows the number of laptops on sale in the eCommerce Site by a distinct company.
+2. The dashboard can be used to infer which CPU + GPU brand is the most popular combination chosen by the brands.
+3. The range of price of laptops offered by different brands of laptops
