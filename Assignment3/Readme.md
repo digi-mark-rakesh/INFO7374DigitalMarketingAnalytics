@@ -6,7 +6,7 @@ The dataset talks about the different sales based on different marketing factors
 The following is the description of the test dataset:
 
 base_sales &rarr Sales without ad spending </br>
-tv_Sales_1 ==> Sales with TV spending + adstock model 1 </br>
+tv_Sales_1 ==>  Sales with TV spending + adstock model 1 </br>
 temp ==> Temperature (normalized) </br>
 tv_spend ==> Spending on TV ads </br>
 week ==> Week number </br>
@@ -22,6 +22,6 @@ tv_Radio_Sales_2_Adstock ==> Adstock contribution for model 4</br>
 
 
 ### Steps for the Assignment 3 part 1
-Reading the file into the pandas dataframe
-Calculating the value of sales done by the TV ads.
-Took the average of the two tv sales with two different ad stocks 
+1. Reading the file into the pandas dataframe
+2. Calculating the value of sales done by the TV ads.
+3 .Took the average of the two tv sales with two different ad stocks 
