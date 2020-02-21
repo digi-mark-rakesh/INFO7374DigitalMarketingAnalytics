@@ -31,3 +31,21 @@ tv_Radio_Sales_2_Adstock ==> Adstock contribution for model 4</br>
 ### Steps for the Assignment 3 part 2
 1. The csv was loaded in another notebook so that TV ad expenditure along with base sales vs TV ad sales can plotted in the same graph axes.
 2. Similarly the other graph was plotted so that Radio ad expenditure could be seen with base base sales + Radio and TV as expenditure altogether.
+
+#### Observation 1:
+The maximum amount of sales occur from week 200 to 260 with the max amount of base sale being 1,222 for the week 223.
+The minimum sales occur in the week range 1 to 50, with the least amount of base sale and sales after TV spending being 989 and 987 respectively for week 38.
+#### Observation 2:
+The sales have definitely increased when compared to the base sales.
+The max increase in sales is of about 3.2% for week 201 after spending on TV ads and the min increase in sales is of about 1.68% for week 102 after spending on TV ads.
+The amount of money spent on TV ads is not linearly proportional to the increase in the sales. Upon comparing week 201 and 150, money spent on TV ads for week 150 is more than the money spent on TV ads for week 201, but still the gains are more for week 201
+#### Observation 3:
+We can observe  that the sales figures rose initially but then again dropped, pointing out that there are adstock effects for TV ad spending.
+A similar pattern is seen for sales between the weeks 200 and 205, where we find that until the TV ad spending is reduced and then again increased, the increase in sales tapers off.
+#### Observation 4:
+The increase in sales is not directly proportional to the amount of money spent on radio ads.
+When compared to the base sales, the figures rise after spending is done on the radio ads.
+The sales actually fell by 0.169% for week 253 whereas, the maximum increase in sales after radio spending is about 3.02% for week 201.
+#### Observation 5:
+We find sales between the weeks 40 and 45, the sales have again improved after a small dip at week 43  spending on ads and have not tapered off or remained constant.
+Similarly, between weeks 195 and 200, the sales increase initially at week 196, then it goes down for week 198 and finally rises for week 200 before tapering off.
