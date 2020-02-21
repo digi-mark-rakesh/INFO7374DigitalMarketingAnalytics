@@ -5,7 +5,7 @@ https://docs.google.com/document/d/1sLjzkDYLQh5M-1VvAeyIWzT8TTbf9C0UY25CfDvETtw/
 The dataset talks about the different sales based on different marketing factors such as TV Marketing and Radio Marketing. It also has the data on adstock models which can help us to use it for getting different insights in the visualisation. 
 The following is the description of the test dataset:
 
-base_sales == > Sales without ad spending ||
+base_sales == > Sales without ad spending </br>
 tv_Sales_1 ==> Sales with TV spending + adstock model 1 ||
 temp ==> Temperature (normalized) ||
 tv_spend ==> Spending on TV ads ||
