@@ -24,4 +24,9 @@ tv_Radio_Sales_2_Adstock ==> Adstock contribution for model 4</br>
 ### Steps for the Assignment 3 part 1
 1. Reading the file into the pandas dataframe
 2. Calculating the value of sales done by the TV ads.
-3 .Took the average of the two tv sales with two different ad stocks 
+3. Took the average of the two tv sales with two different ad stocks and put the final value on the 
+4. Similarly for the Radio TV as sales the average of the two different sales associated with two different ad stocks were taken.
+5. Finally the dataframe was written to csv and downloaded into the local system.
+### Steps for the Assignment 3 part 2
+1. The csv was loaded in another notebook so that TV ad expenditure along with base sales vs TV ad sales can plotted in the same graph axes.
+2. Similarly the other graph was plotted so that Radio ad expenditure could be seen with base base sales + Radio and TV as expenditure altogether.
