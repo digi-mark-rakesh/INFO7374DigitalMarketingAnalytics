@@ -1,5 +1,6 @@
 ## Links to the document:
 https://docs.google.com/document/d/1sLjzkDYLQh5M-1VvAeyIWzT8TTbf9C0UY25CfDvETtw/edit?usp=sharing
+https://codelabs-preview.appspot.com/?file_id=1sLjzkDYLQh5M-1VvAeyIWzT8TTbf9C0UY25CfDvETtw#5
 
 ### About the dataset:
 The dataset talks about the different sales based on different marketing factors such as TV Marketing and Radio Marketing. It also has the data on adstock models which can help us to use it for getting different insights in the visualisation. 
