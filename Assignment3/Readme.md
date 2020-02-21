@@ -47,5 +47,5 @@ The increase in sales is not directly proportional to the amount of money spent 
 When compared to the base sales, the figures rise after spending is done on the radio ads.
 The sales actually fell by 0.169% for week 253 whereas, the maximum increase in sales after radio spending is about 3.02% for week 201.
 #### Observation 5:
-We find sales between the weeks 40 and 45, the sales have again improved after a small dip at week 43  spending on ads and have not tapered off or remained constant.
+We find sales between the weeks 40 and 45 that had initially improved, again increase after a small dip at week 43 after spending on ads and have not tapered off or remained constant.
 Similarly, between weeks 195 and 200, the sales increase initially at week 196, then it goes down for week 198 and finally rises for week 200 before tapering off.
