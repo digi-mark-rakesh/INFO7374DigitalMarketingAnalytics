@@ -71,6 +71,8 @@ Once the Data is clean with all the Exploratory Data Analysis done using Pandas,
 
 # Assignment 3 Part2
 
+Claat doc link: https://docs.google.com/document/d/1WXltkcTbJt12cmE5Gp-YC0AL--pXOi6tJp4G7H0ZPds/edit?usp=sharing
+
 ## Attribution Models
 
 ### 1 – First Touch Attribution Model
