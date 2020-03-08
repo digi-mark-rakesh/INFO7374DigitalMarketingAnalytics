@@ -103,6 +103,7 @@ In fact, it is the go-to attribution model for analytics software like Google An
 However, the last click attribution model obscures the other channels that played an essential role in your brand discovery and prospect nurturing. This model is also least effective for channels that require a lot of research before a prospect makes up their mind.
 
 ### 3- Linear Attribution Model
+
 *What is Linear Attribution Model?*</br>
 Linear attribution model gives the same credit to every channel across the whole sales journey. It equally divides the attribute to every single channel the customer interacted before completing a purchase.
 
