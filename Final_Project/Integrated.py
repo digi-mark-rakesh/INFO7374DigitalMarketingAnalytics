@@ -18,8 +18,8 @@ import plotly.graph_objs as go
 from plotly.graph_objs import *
 
 
-##########################################################################
-url = 'https://github.com/Sardar6Khan/ADM-App-dep/raw/master/YouTube.csv'
+
+url = 'https://github.com/rakesh-choudhury/Dataset/raw/master/YouTube.csv'
 
 df = pd.read_csv(url,sep=",")
 youtube = df
@@ -27,6 +27,7 @@ youtube = df
 ###############################################################################
 
 #youtube = pd.read_csv("/content/drive/My Drive/Datasets/Final_YouTube_Dataset/YouTube.csv")
+st.title('Youtube Trend Analysis')
 
 st.markdown('### Youtube Dataset')
 
