@@ -15,6 +15,27 @@ Project Presentation video:
 * Streamlit for Visualizations
 * Heroku to deploy the web based application on cloud
 
+# Depoloyment of Visualization application on cloud using Heroku
+
+To make the dashboard visualizations more easy to access, deploying it on the cloud is the best option.
+
+We have used Heroku as it has only a few steps and requires minimum amount of coding. Following are the steps to achieve that using GitHub:
+
+1. Create an Account on Heroku
+2. Install the Heroku CLI and setups
+3. Create a Git Account on GitHub
+4. Create A Repository for your app
+5. Clone Your App locally
+6. Login on heroku from the CLI - ``heroku login``
+7. Have the required files ready - requirements.txt, setup.sh, Procfile
+8. Make your changes and push to your git account
+9. Create A heroku app from the CLI - ``heroku create yourappname`` will help you 
+10. Deploy by pushing to heroku - on CLI ``git push heroku master``
+
+Once your app is deployed on the cloud you can copy the url and use it by simply pasting in on any browser and it should work as expected.
+
+The link to our web application is: 
+
 # Test Dataset
 
 The test dataset 'YouTube.csv' is used to modify the features and then gain insghts useful for choosing the YouTube suitable for the user.
@@ -90,25 +111,3 @@ The following guidelines can help you while runnning a streamlit application:
 3. Navigate to the folder consisting the .py file
 4. streamlit run Integrated.py / streamlit run Trend_Metric_Channels.py
 5. Open browser and copy the url
-
-
-# Depoloyment of Visualization application on cloud using Heroku
-
-To make the dashboard visualizations more easy to access, deploying it on the cloud is the best option.
-
-We have used Heroku as it has only a few steps and requires minimum amount of coding. Following are the steps to achieve that using GitHub:
-
-1. Create an Account on Heroku
-2. Install the Heroku CLI and setups
-3. Create a Git Account on GitHub
-4. Create A Repository for your app
-5. Clone Your App locally
-6. Login on heroku from the CLI - *heroku login*
-7. Have the required files ready - requirements.txt, setup.sh, Procfile
-8. Make your changes and push to your git account
-9. Create A heroku app from the CLI - *heroku create yourappname* will help you 
-10. Deploy by pushing to heroku - on CLI *git push heroku master*
-
-Once your app is deployed on the cloud you can copy the url and use it by simply pasting in on any browser and it should work as expected.
-
-The link to our web application is: 
