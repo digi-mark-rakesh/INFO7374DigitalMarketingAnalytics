@@ -35,7 +35,7 @@ We have used Heroku as it has only a few steps and requires minimum amount of co
 
 Once your app is deployed on the cloud you can copy the url and use it by simply pasting in on any browser and it should work as expected.
 
-The link to our web application is: 
+The [link](https://yt-sponsored-vid.herokuapp.com/) to our web application.
 
 # Test Dataset
 
