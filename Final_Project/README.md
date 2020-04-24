@@ -2,8 +2,7 @@
 
 Project Report: 
 [Report Document Link](https://docs.google.com/document/d/17LH2tHUcMupo8Gp4IdkbEcm5pzd33Bxjc8hDaVvTJo0/edit#heading=h.nh1djjdrpyqf)</br>
-Web Application:
-Project Presentation video: 
+Web Application [link](https://yt-sponsored-vid.herokuapp.com/)
 
 
 # Project Title
