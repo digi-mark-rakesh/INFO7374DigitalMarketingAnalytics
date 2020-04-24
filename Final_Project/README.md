@@ -22,16 +22,23 @@ To make the dashboard visualizations more easy to access, deploying it on the cl
 
 We have used Heroku as it has only a few steps and requires minimum amount of coding. Following are the steps to achieve that using GitHub:
 
-1. Create an Account on Heroku
-2. Install the Heroku CLI and setups
-3. Create a Git Account on GitHub
-4. Create A Repository for your app
-5. Clone Your App locally
-6. Login on heroku from the CLI - ``heroku login``
-7. Have the required files ready - requirements.txt, setup.sh, Procfile
-8. Make your changes and push to your git account
-9. Create A heroku app from the CLI - ``heroku create yourappname`` will help you 
-10. Deploy by pushing to heroku - on CLI ``git push heroku master``
+* Create an Account on [Heroku](https://signup.heroku.com)
+* Install the [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) and setups
+* Create a Git Account on [GitHub](https://github.com/join?source=header-home)
+* Create A Repository for your app
+* Clone Your App locally``git clone yourreponame``
+* Install the library dependencies using the command such as ``pipenv install pandas streamlit numpy seaborn scikit-learn matplotlib``
+* Run the virtual environment locally ``pipenv shell``
+* Check if the app is running error free in virtual environment ``pipenv run streamlit run yourfilename.py``
+* Go to the local environment and push all the files to git repository
+** ``git add .``
+** ``git commit -m "your-message"``
+** ``git push``
+* Type the command to login to heroku from the CLI - ``heroku login``
+* Have the required files ready - ``setup.sh``, ``Procfile``
+* Make your changes and push to your git account
+* Create A heroku app from the CLI - ``heroku create yourappname`` will help you 
+* Deploy by pushing to heroku - on CLI ``git push heroku master``
 
 Once your app is deployed on the cloud you can copy the url and use it by simply pasting in on any browser and it should work as expected.
 
