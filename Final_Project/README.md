@@ -1,7 +1,7 @@
 # INFO 7374 | Algorithmic Digital Marketing | Final Project
 
-Project Report: 
-[Report Document Link](https://docs.google.com/document/d/17LH2tHUcMupo8Gp4IdkbEcm5pzd33Bxjc8hDaVvTJo0/edit#heading=h.nh1djjdrpyqf)</br>
+Project Report Document 
+[Link](https://docs.google.com/document/d/17LH2tHUcMupo8Gp4IdkbEcm5pzd33Bxjc8hDaVvTJo0/edit#heading=h.nh1djjdrpyqf)</br>
 Web Application [link](https://yt-sponsored-vid.herokuapp.com/)
 
 
