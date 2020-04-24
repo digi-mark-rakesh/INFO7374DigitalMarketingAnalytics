@@ -28,7 +28,7 @@ We have used Heroku as it has only a few steps and requires minimum amount of co
 * Create A Repository for your app
 * Clone Your App locally``git clone yourreponame``
 * Install the library dependencies using the command such as ``pipenv install pandas streamlit numpy seaborn scikit-learn matplotlib``
-[pic](install_pic.png)
+[pic](Final_Project/install_pic.png)
 * Run the virtual environment locally ``pipenv shell``
 * Check if the app is running error free in virtual environment ``pipenv run streamlit run yourfilename.py``
 * Create the ``requirements.txt`` file with the command ``pipenv run pip freeze > requirements.txt``
