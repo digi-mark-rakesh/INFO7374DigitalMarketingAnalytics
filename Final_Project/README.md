@@ -7,7 +7,7 @@ Web Application [Link](https://yt-sponsored-vid.herokuapp.com/)
 
 # Project Title
 
-“YouTube Channel based ad sponsorship”
+### YouTube Channel based ad sponsorship
 
 # Tools Used
 
