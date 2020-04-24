@@ -30,8 +30,29 @@ We have used Heroku as it has only a few steps and requires minimum amount of co
 * Install the library dependencies using the command such as ``pipenv install pandas streamlit numpy seaborn scikit-learn matplotlib``
 * Run the virtual environment locally ``pipenv shell``
 * Check if the app is running error free in virtual environment ``pipenv run streamlit run yourfilename.py``
+* Create the ``requirements.txt`` file with the command ``pipenv run pip freeze > requirements.txt``
+* Create the ``setup.sh`` file. If you want to by pass your creadentials the use this</br> ``mkdir -p ~/.streamlit/``
+``echo "\``
+``[server]\n\``
+``headless = true\n\``
+``port = $PORT\n\``
+``enableCORS = false\n\``
+``\n\``
+``" > ~/.streamlit/config.toml``
+* For without credentials</br> ``mkdir -p ~/.streamlit/``
+``echo "\``
+``[general]\n\``
+``email = \"youremail@domain.com\"\n\``
+``" > ~/.streamlit/credentials.toml``
+``echo "\``
+``[server]\n\``
+``headless = true\n\``
+``enableCORS=false\n\``
+``port = $PORT\n\``
+``" > ~/.streamlit/config.toml``
+* Compse the ``Procfile`` with the code ``web: sh setup.sh && streamlit run yourapp.py``
 * Go to the local environment and push all the files to git repository
- __* ``git add .``
+ * ``git add .``
  * ``git commit -m "your-message"``
  * ``git push``
 * Type the command to login to heroku from the CLI - ``heroku login``
