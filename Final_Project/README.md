@@ -60,6 +60,8 @@ We have used Heroku as it has only a few steps and requires minimum amount of co
 * Have the required files ready - ``setup.sh``, ``Procfile``
 * Create A heroku app from the CLI - ``heroku create yourappname`` will help you 
 * Deploy by pushing to heroku - on CLI ``git push heroku master``
+* Finally the deployed would look something like this</br>
+* ![](deploy.png)
 
 Once your app is deployed on the cloud you can copy the url and use it by simply pasting in on any browser and it should work as expected.
 
