@@ -31,7 +31,7 @@ We have used Heroku as it has only a few steps and requires minimum amount of co
 * Run the virtual environment locally ``pipenv shell``
 * Check if the app is running error free in virtual environment ``pipenv run streamlit run yourfilename.py``
 * Create the ``requirements.txt`` file with the command ``pipenv run pip freeze > requirements.txt``
-* Create the ``setup.sh`` file. If you want to by pass your creadentials the use this</br> ``mkdir -p ~/.streamlit/``</br>
+* Create the ``setup.sh`` file. If you want to by pass your creadentials then use this</br> ``mkdir -p ~/.streamlit/``</br>
 ``echo "\``</br>
 ``[server]\n\``</br>
 ``headless = true\n\``</br>
