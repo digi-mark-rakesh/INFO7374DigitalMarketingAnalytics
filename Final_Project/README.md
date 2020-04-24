@@ -31,12 +31,11 @@ We have used Heroku as it has only a few steps and requires minimum amount of co
 * Run the virtual environment locally ``pipenv shell``
 * Check if the app is running error free in virtual environment ``pipenv run streamlit run yourfilename.py``
 * Go to the local environment and push all the files to git repository
- * ``git add .``
+ __* ``git add .``
  * ``git commit -m "your-message"``
  * ``git push``
 * Type the command to login to heroku from the CLI - ``heroku login``
 * Have the required files ready - ``setup.sh``, ``Procfile``
-* Make your changes and push to your git account
 * Create A heroku app from the CLI - ``heroku create yourappname`` will help you 
 * Deploy by pushing to heroku - on CLI ``git push heroku master``
 
